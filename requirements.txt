@@ -1,0 +1,7 @@
+future==0.18.3
+iso8601==2.0.0
+numpy==1.25.2
+opencv-python==4.8.0.76
+Pillow==10.0.0
+pyserial==3.5
+PyYAML==6.0.1
