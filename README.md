@@ -120,7 +120,7 @@ cv2.destroyAllWindows()
 
 ### arduino_code.ino
 
-```arduino
+```cpp
 void setup() {
   // Initialize the LEDs
   pinMode(8, OUTPUT);
@@ -155,7 +155,7 @@ The video capture device is initialized and the frame is processed to detect col
 
 ## Operation
 1. The **`arduino_code.ino`** initializes a serial connection between the Arduino board and the local machine.
-```arduino
+```cpp
 Serial.begin(9600);
 ```
 
@@ -171,7 +171,7 @@ ser = serial.Serial('COM4', 9600)
 5. A byte of data is sent across the serial connection if there are more than a thousand pixels that are the same color.
 
 6. The LED is controlled by the Arduino board, which reads this byte data.
-```arduino
+```cpp
 char receivedChar = Serial.read();
 
 if (receivedChar == 'R') {
