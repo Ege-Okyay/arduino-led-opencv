@@ -2,7 +2,7 @@
 
 ![Project Screenshot](screenshot.webp)
 
-This project uses a video input to identify colors, and then it uses that information to turn on an LED on the Arduino board. It demonstrates the merging of computer vision and hardware control, and it demonstrates how to utilize OpenCV for color detection as well as build and deliver data in a serial connection between the Python script and Arduino board.
+In order to recognize colors from a video input, this project employs a Python script using OpenCV. A byte of data is then sent through the serial connection between the Arduino board and the local computer to activate the correct LED. It shows how to construct and send through in a serial connection, as well as how to make color detection using OpenCV.
 
 ## Project Components
 
