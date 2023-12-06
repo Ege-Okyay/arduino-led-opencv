@@ -22,7 +22,7 @@ The project consists of the following components:
 - Breadboard
 - 2x LEDs
 - 4x jumper cables
-- 2x 220 ohm resistors
+- 2x 330 ohm resistors
 
 ## Arduino Setup
 ![LED Setup Screenshot](arduino_screenshot_1.png)
